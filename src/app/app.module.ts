@@ -28,6 +28,7 @@ import { ShippingComponent } from './shipping/shipping.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     HttpClientModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
